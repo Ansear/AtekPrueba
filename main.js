@@ -10,7 +10,7 @@ const send = () => {
             password.value = "" 
         }, 5000);   
     }else{
-        setInterval(() => {
+        setTimeout(() => {
             message.style.color = "red"
             alert("Usuario o contraseña incorrectos")
         }, 500);
